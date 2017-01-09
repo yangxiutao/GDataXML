@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1201CA171E2313C500DA6AA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1201CA161E2313C500DA6AA5 /* main.m */; };
+		1201CA1A1E2313C500DA6AA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1201CA191E2313C500DA6AA5 /* AppDelegate.m */; };
+		1201CA1D1E2313C500DA6AA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1201CA1C1E2313C500DA6AA5 /* ViewController.m */; };
+		1201CA201E2313C500DA6AA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1201CA1E1E2313C500DA6AA5 /* Main.storyboard */; };
+		1201CA221E2313C500DA6AA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1201CA211E2313C500DA6AA5 /* Assets.xcassets */; };
+		1201CA251E2313C500DA6AA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1201CA231E2313C500DA6AA5 /* LaunchScreen.storyboard */; };
+		1201CA2D1E23156000DA6AA5 /* area.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1201CA2C1E23156000DA6AA5 /* area.xml */; };
+		1201CA301E23213300DA6AA5 /* XMLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1201CA2F1E23213300DA6AA5 /* XMLManager.m */; };
+		5304A6B1AE122B5B1A0D3BEC /* libPods-HandelXMLFile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E480F90425A74CEE5D7FDB7 /* libPods-HandelXMLFile.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1201CA121E2313C500DA6AA5 /* HandelXMLFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandelXMLFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1201CA161E2313C500DA6AA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1201CA181E2313C500DA6AA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1201CA191E2313C500DA6AA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1201CA1B1E2313C500DA6AA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1201CA1C1E2313C500DA6AA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1201CA1F1E2313C500DA6AA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1201CA211E2313C500DA6AA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1201CA241E2313C500DA6AA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1201CA261E2313C500DA6AA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1201CA2C1E23156000DA6AA5 /* area.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = area.xml; sourceTree = "<group>"; };
+		1201CA2E1E23213300DA6AA5 /* XMLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLManager.h; sourceTree = "<group>"; };
+		1201CA2F1E23213300DA6AA5 /* XMLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLManager.m; sourceTree = "<group>"; };
+		4665B5BE0812370C3D04EC61 /* Pods-HandelXMLFile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandelXMLFile.release.xcconfig"; path = "Pods/Target Support Files/Pods-HandelXMLFile/Pods-HandelXMLFile.release.xcconfig"; sourceTree = "<group>"; };
+		9E480F90425A74CEE5D7FDB7 /* libPods-HandelXMLFile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HandelXMLFile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9D5F2D81CA52D0EDD177B7 /* Pods-HandelXMLFile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandelXMLFile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HandelXMLFile/Pods-HandelXMLFile.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1201CA0F1E2313C500DA6AA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5304A6B1AE122B5B1A0D3BEC /* libPods-HandelXMLFile.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1201CA091E2313C400DA6AA5 = {
+			isa = PBXGroup;
+			children = (
+				1201CA141E2313C500DA6AA5 /* HandelXMLFile */,
+				1201CA131E2313C500DA6AA5 /* Products */,
+				B2A72F8444958E43EAFF0EC4 /* Pods */,
+				4EFFB6D0FF3252662F1FDB8E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1201CA131E2313C500DA6AA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1201CA121E2313C500DA6AA5 /* HandelXMLFile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1201CA141E2313C500DA6AA5 /* HandelXMLFile */ = {
+			isa = PBXGroup;
+			children = (
+				1201CA2E1E23213300DA6AA5 /* XMLManager.h */,
+				1201CA2F1E23213300DA6AA5 /* XMLManager.m */,
+				1201CA2C1E23156000DA6AA5 /* area.xml */,
+				1201CA181E2313C500DA6AA5 /* AppDelegate.h */,
+				1201CA191E2313C500DA6AA5 /* AppDelegate.m */,
+				1201CA1B1E2313C500DA6AA5 /* ViewController.h */,
+				1201CA1C1E2313C500DA6AA5 /* ViewController.m */,
+				1201CA1E1E2313C500DA6AA5 /* Main.storyboard */,
+				1201CA211E2313C500DA6AA5 /* Assets.xcassets */,
+				1201CA231E2313C500DA6AA5 /* LaunchScreen.storyboard */,
+				1201CA261E2313C500DA6AA5 /* Info.plist */,
+				1201CA151E2313C500DA6AA5 /* Supporting Files */,
+			);
+			path = HandelXMLFile;
+			sourceTree = "<group>";
+		};
+		1201CA151E2313C500DA6AA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1201CA161E2313C500DA6AA5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EFFB6D0FF3252662F1FDB8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E480F90425A74CEE5D7FDB7 /* libPods-HandelXMLFile.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2A72F8444958E43EAFF0EC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB9D5F2D81CA52D0EDD177B7 /* Pods-HandelXMLFile.debug.xcconfig */,
+				4665B5BE0812370C3D04EC61 /* Pods-HandelXMLFile.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1201CA111E2313C500DA6AA5 /* HandelXMLFile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1201CA291E2313C500DA6AA5 /* Build configuration list for PBXNativeTarget "HandelXMLFile" */;
+			buildPhases = (
+				58A49F4A4F7363CC628B4B14 /* [CP] Check Pods Manifest.lock */,
+				1201CA0E1E2313C500DA6AA5 /* Sources */,
+				1201CA0F1E2313C500DA6AA5 /* Frameworks */,
+				1201CA101E2313C500DA6AA5 /* Resources */,
+				E42492CBE898A7C955CCCCE4 /* [CP] Embed Pods Frameworks */,
+				5D1DCCEC4BF0ACE8EDFBD050 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandelXMLFile;
+			productName = HandelXMLFile;
+			productReference = 1201CA121E2313C500DA6AA5 /* HandelXMLFile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1201CA0A1E2313C400DA6AA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = YXT;
+				TargetAttributes = {
+					1201CA111E2313C500DA6AA5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1201CA0D1E2313C400DA6AA5 /* Build configuration list for PBXProject "HandelXMLFile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1201CA091E2313C400DA6AA5;
+			productRefGroup = 1201CA131E2313C500DA6AA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1201CA111E2313C500DA6AA5 /* HandelXMLFile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1201CA101E2313C500DA6AA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1201CA2D1E23156000DA6AA5 /* area.xml in Resources */,
+				1201CA251E2313C500DA6AA5 /* LaunchScreen.storyboard in Resources */,
+				1201CA221E2313C500DA6AA5 /* Assets.xcassets in Resources */,
+				1201CA201E2313C500DA6AA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58A49F4A4F7363CC628B4B14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5D1DCCEC4BF0ACE8EDFBD050 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HandelXMLFile/Pods-HandelXMLFile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E42492CBE898A7C955CCCCE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HandelXMLFile/Pods-HandelXMLFile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1201CA0E1E2313C500DA6AA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1201CA1D1E2313C500DA6AA5 /* ViewController.m in Sources */,
+				1201CA1A1E2313C500DA6AA5 /* AppDelegate.m in Sources */,
+				1201CA171E2313C500DA6AA5 /* main.m in Sources */,
+				1201CA301E23213300DA6AA5 /* XMLManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1201CA1E1E2313C500DA6AA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1201CA1F1E2313C500DA6AA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1201CA231E2313C500DA6AA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1201CA241E2313C500DA6AA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1201CA271E2313C500DA6AA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1201CA281E2313C500DA6AA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1201CA2A1E2313C500DA6AA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB9D5F2D81CA52D0EDD177B7 /* Pods-HandelXMLFile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HandelXMLFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.googosoft.HandelXMLFile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1201CA2B1E2313C500DA6AA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4665B5BE0812370C3D04EC61 /* Pods-HandelXMLFile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HandelXMLFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.googosoft.HandelXMLFile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1201CA0D1E2313C400DA6AA5 /* Build configuration list for PBXProject "HandelXMLFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1201CA271E2313C500DA6AA5 /* Debug */,
+				1201CA281E2313C500DA6AA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1201CA291E2313C500DA6AA5 /* Build configuration list for PBXNativeTarget "HandelXMLFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1201CA2A1E2313C500DA6AA5 /* Debug */,
+				1201CA2B1E2313C500DA6AA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1201CA0A1E2313C400DA6AA5 /* Project object */;
+}
